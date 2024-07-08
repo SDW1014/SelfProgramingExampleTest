@@ -29,8 +29,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12 가상 함수를 형성 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13 클래스의 생성자와 소멸자의 객체의 상속의 관계를 알아보자", "13 클래스의 생성자와 소멸자의 객체의 상속의 관계를 알아보자\13 클래스의 생성자와 소멸자의 객체의 상속의 관계를 알아보자.vcxproj", "{98FC953C-8F54-4F9B-8408-6D13EAFC4417}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14 Editor_window2", "14 Editor_window2\14 Editor_window2.vcxproj", "{654CCA27-CC2A-4B37-99B6-50F3D98C2906}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -143,14 +141,6 @@ Global
 		{98FC953C-8F54-4F9B-8408-6D13EAFC4417}.Release|x64.Build.0 = Release|x64
 		{98FC953C-8F54-4F9B-8408-6D13EAFC4417}.Release|x86.ActiveCfg = Release|Win32
 		{98FC953C-8F54-4F9B-8408-6D13EAFC4417}.Release|x86.Build.0 = Release|Win32
-		{654CCA27-CC2A-4B37-99B6-50F3D98C2906}.Debug|x64.ActiveCfg = Debug|x64
-		{654CCA27-CC2A-4B37-99B6-50F3D98C2906}.Debug|x64.Build.0 = Debug|x64
-		{654CCA27-CC2A-4B37-99B6-50F3D98C2906}.Debug|x86.ActiveCfg = Debug|Win32
-		{654CCA27-CC2A-4B37-99B6-50F3D98C2906}.Debug|x86.Build.0 = Debug|Win32
-		{654CCA27-CC2A-4B37-99B6-50F3D98C2906}.Release|x64.ActiveCfg = Release|x64
-		{654CCA27-CC2A-4B37-99B6-50F3D98C2906}.Release|x64.Build.0 = Release|x64
-		{654CCA27-CC2A-4B37-99B6-50F3D98C2906}.Release|x86.ActiveCfg = Release|Win32
-		{654CCA27-CC2A-4B37-99B6-50F3D98C2906}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

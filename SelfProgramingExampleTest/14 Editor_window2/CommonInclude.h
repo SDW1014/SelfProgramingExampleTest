@@ -1,6 +1,8 @@
 #pragma once
 
 
-struct TEST
+struct Test
 {
+public:
+	void test();
 };

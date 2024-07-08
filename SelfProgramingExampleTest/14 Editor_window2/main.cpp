@@ -18,20 +18,20 @@ BOOL                InitInstance(HINSTANCE, int);
 LRESULT CALLBACK    WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK    About(HWND, UINT, WPARAM, LPARAM);
 
-int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
-                     _In_opt_ HINSTANCE hPrevInstance,
-                     _In_ LPWSTR    lpCmdLine,
-                     _In_ int       nCmdShow)
+int APIENTRY wWinMain(_In_ HINSTANCE hInstance, // 프로그램의 인스턴스 핸들 : 설명 : 메모리에는 프로그램이 시작되는 부분이 존재하는데 다른 프로그램의 시작점을 구분하기 위해 핸들이 필요하다.
+                     _In_opt_ HINSTANCE hPrevInstance, // 바로 앞의 인스턴스 핸들 : 설명 : 이전에 실행된 프로그램의 인스턴스 핸들이다. 이전에 실행된 프로그램이 없다면 NULL이다.
+                     _In_ LPWSTR    lpCmdLine, // 명령줄 인수 : 설명 : 프로그램을 실행할 때 사용자가 입력한 인수들이다. 이 인수들은 문자열로 저장된다.
+                     _In_ int       nCmdShow) // 윈도우 창의 표시 상태 : 설명 : 프로그램이 실행될 때 윈도우 창의 상태를 결정한다. 이 값은 프로그램이 실행될 때 윈도우 창이 어떻게 표시될지 결정한다.
 {
 
-    UNREFERENCED_PARAMETER(hPrevInstance);
-    UNREFERENCED_PARAMETER(lpCmdLine);
+    UNREFERENCED_PARAMETER(hPrevInstance); // 사용되지 않는 매개변수를 무시한다.
+    UNREFERENCED_PARAMETER(lpCmdLine); // 사용되지 않는 매개변수를 무시한다.
 
     // TODO: 여기에 코드를 입력합니다.
 
     // 전역 문자열을 초기화합니다.
-    LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
-    LoadStringW(hInstance, IDC_MY14EDITORWINDOW2, szWindowClass, MAX_LOADSTRING);
+    LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING); // IDS_APP_TITLE : 설명 : 리소스 테이블에 있는 문자열을 가져온다.
+    LoadStringW(hInstance, IDC_MY14EDITORWINDOW2, szWindowClass, MAX_LOADSTRING); // IDC_MY14EDITORWINDOW2 : 설명 : 리소스 테이블에 있는 문자열을 가져온다.
     MyRegisterClass(hInstance);
 
     // 애플리케이션 초기화를 수행합니다:
@@ -99,7 +99,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
    hInst = hInstance; // 인스턴스 핸들을 전역 변수에 저장합니다.
 
    HWND hWnd = CreateWindowW(szWindowClass, szTitle, WS_OVERLAPPEDWINDOW,
-      CW_USEDEFAULT, 0, CW_USEDEFAULT, 0, nullptr, nullptr, hInstance, nullptr);
+      CW_USEDEFAULT, 0, 1600, 900, nullptr, nullptr, hInstance, nullptr);
 
    if (!hWnd)
    {
@@ -179,3 +179,10 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
     }
     return (INT_PTR)FALSE;
 }
+
+// 정리 
+// WndClass 정의 : 윈도우의 기반이 되는 클래스를 정의한다.
+// CreateWindow : 메모리상에 윈도우를 만든다. 
+// SHowWindow : 윈도우를 화면에 표시한다. 
+// 메시지 루프 : 사용자로부터의 메시지를 처리한다. 
+

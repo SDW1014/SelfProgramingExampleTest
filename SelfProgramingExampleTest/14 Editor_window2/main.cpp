@@ -55,7 +55,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     return (int) msg.wParam;
 }
 
-
+// 커밋 테스트
 
 //
 //  함수: MyRegisterClass()

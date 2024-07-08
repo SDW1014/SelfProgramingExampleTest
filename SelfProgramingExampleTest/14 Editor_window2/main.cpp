@@ -3,6 +3,7 @@
 
 #include "framework.h"
 #include "14 Editor_window2.h"
+#include "CommonInclude.h"
 
 #define MAX_LOADSTRING 100
 
@@ -56,8 +57,6 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 }
 
 
-
-// 커밋 테스트
 //  함수: MyRegisterClass()
 //
 //  용도: 창 클래스를 등록합니다.

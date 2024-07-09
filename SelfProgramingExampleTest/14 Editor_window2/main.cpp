@@ -57,7 +57,10 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance, // 프로그램의 인스턴스 
     return (int) msg.wParam;
 }
 
-
+<<<<<<< HEAD
+=======
+// 커밋 테스트
+>>>>>>> df40e0a34ae22e8599392844efdf2e0cf6a6bc24
 
 //  함수: MyRegisterClass()
 //

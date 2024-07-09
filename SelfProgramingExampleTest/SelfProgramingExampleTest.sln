@@ -31,6 +31,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13 클래스의 생성자�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14 Editor_window2", "14 Editor_window2\14 Editor_window2.vcxproj", "{654CCA27-CC2A-4B37-99B6-50F3D98C2906}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "15 SAL TEST", "15 SAL TEST\15 SAL TEST.vcxproj", "{4923A5D1-ED57-4C3B-9768-E9D306CAC10E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -151,6 +153,14 @@ Global
 		{654CCA27-CC2A-4B37-99B6-50F3D98C2906}.Release|x64.Build.0 = Release|x64
 		{654CCA27-CC2A-4B37-99B6-50F3D98C2906}.Release|x86.ActiveCfg = Release|Win32
 		{654CCA27-CC2A-4B37-99B6-50F3D98C2906}.Release|x86.Build.0 = Release|Win32
+		{4923A5D1-ED57-4C3B-9768-E9D306CAC10E}.Debug|x64.ActiveCfg = Debug|x64
+		{4923A5D1-ED57-4C3B-9768-E9D306CAC10E}.Debug|x64.Build.0 = Debug|x64
+		{4923A5D1-ED57-4C3B-9768-E9D306CAC10E}.Debug|x86.ActiveCfg = Debug|Win32
+		{4923A5D1-ED57-4C3B-9768-E9D306CAC10E}.Debug|x86.Build.0 = Debug|Win32
+		{4923A5D1-ED57-4C3B-9768-E9D306CAC10E}.Release|x64.ActiveCfg = Release|x64
+		{4923A5D1-ED57-4C3B-9768-E9D306CAC10E}.Release|x64.Build.0 = Release|x64
+		{4923A5D1-ED57-4C3B-9768-E9D306CAC10E}.Release|x86.ActiveCfg = Release|Win32
+		{4923A5D1-ED57-4C3B-9768-E9D306CAC10E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
